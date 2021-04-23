@@ -158,6 +158,13 @@ height: 100%;
         width: 48%;
         margin-left: 1rem;
     }
+    .container{
+        width: 80%;
+    }
+     .container a{
+      margin-left: 5px;
+      text-align: center;
+   }
 }
 
 
@@ -204,5 +211,14 @@ height: 100%;
         font-size: 20px;
         
     }
+   .container{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+   .container a{
+    margin-top: 8px;
+    margin-left: 0.5rem;
     
+ }
 }
